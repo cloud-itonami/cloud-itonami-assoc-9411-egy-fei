@@ -1,0 +1,25 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/association/facts.cljc
+;; `association.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:association-rule{:id "fei.founding-1922-league-of-industries"
+                     :title "Established in 1922 under the name 'رابطة الصناعات في مصر' (League of Industries in Egypt) -- the formal founding, distinct from the 1915 origin of the idea per fei.org.eg's own site (ar.wikipedia.org)"
+                     :association "fei"
+                     :isic "9411"
+                     :country "EGY"
+                     :kind :governance-program
+                     :url "https://ar.wikipedia.org/wiki/%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF_%D8%A7%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D8%A7%D8%AA_%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D8%A9"
+                     :url-provenance :wikipedia-corroborated
+                     :established-date "1922"
+                     :retrieved-at "2026-07-18"
+                     :topic [:governance]}
+ #:association-rule{:id "fei.law-73-1947-current-name"
+                     :title "Law No. 73 of 1947 established a federation of industrial chambers under the name 'اتحاد الصناعات المصرية' (Federation of Egyptian Industries), its current name (ar.wikipedia.org)"
+                     :association "fei"
+                     :isic "9411"
+                     :country "EGY"
+                     :kind :governance-program
+                     :url "https://ar.wikipedia.org/wiki/%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF_%D8%A7%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D8%A7%D8%AA_%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D8%A9"
+                     :url-provenance :wikipedia-corroborated
+                     :established-date "1947"
+                     :retrieved-at "2026-07-18"
+                     :topic [:governance]}]
